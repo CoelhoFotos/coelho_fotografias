@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coelho Fotografias</title>
+
+    <!-- Se você compila SCSS para CSS, aponte para o CSS gerado -->
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+
+  <body>
+    <!-- HEADER / NAV -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="./index.html" aria-label="Coelho Fotografias - Home">
+          <img
+            class="brand__logo"
+            src="./src/img/coelho_logo.png"
+            alt="Logo Coelho Fotografias"
+          />
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Abrir menu"
+          aria-controls="primary-nav"
+          aria-expanded="false"
+        >
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+        </button>
+
+        <nav class="site-nav" id="primary-nav" aria-label="Navegação principal">
+          <a class="site-nav__link is-active" href="./index.html">Home</a>
+          <a class="site-nav__link" href="#contato">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="site-main">
+      <section class="hero">
+        <div class="container hero-inner">
+          <h1>Site em construção</h1>
+          <p>
+            Estamos preparando uma nova experiência para apresentar nossos trabalhos e
+            serviços. Em breve, novidades por aqui.
+          </p>
+
+          <div class="hero-card" id="contato">
+            <h2>Contato</h2>
+            <p>
+              Enquanto isso, fale conosco:
+              <a href="mailto:contato@coelhofotografias.com.br">contato@coelhofotografias.com.br</a>
+              <br />
+              WhatsApp: <a href="https://wa.me/5500000000000" target="_blank" rel="noopener">+55 (00) 00000-0000</a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <img
+            class="footer-brand__logo"
+            src="./src/img/coelho_logo.png"
+            alt="Logo Coelho Fotografias"
+          />
+        </div>
+
+        <div class="footer-info">
+          <h3>Coelho Fotografias</h3>
+          <address>
+            Rua Exemplo, 123 - Bairro Centro<br />
+            Cidade - UF, CEP 00000-000<br />
+            Brasil
+          </address>
+        </div>
+
+        <div class="footer-links">
+          <a href="./termos.html">Termos de Uso</a>
+          <a href="./privacidade.html">Privacidade</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container footer-bottom__inner">
+          <small>© <span id="year"></span> Coelho Fotografias. Todos os direitos reservados.</small>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./src/js/main.js"></script>
+  </body>
+</html>

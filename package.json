@@ -1,0 +1,12 @@
+{
+  "name": "pagina_coelho_fotografias",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass src/scss/style.scss src/css/style.css --style=compressed --no-source-map --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
